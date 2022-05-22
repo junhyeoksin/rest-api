@@ -9,29 +9,6 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-//
-//@RequiredArgsConstructor  // 생성자 주입
-//@RestController
-//@RequestMapping(value = "/v1")
-//public class UserController {
-//
-//    private final UserJpaRepo userJpaRepo;
-//
-//    @GetMapping("/user")
-//    public List<User> findAllUser(){
-//
-//        return userJpaRepo.findAll();
-//    }
-//    @PostMapping("/user")
-//    public User save(){
-//        User user = User.builder()
-//                .uid("test@naverr.com")
-//                .name("jun")
-//                .build();
-//        return userJpaRepo.save(user);
-//    }
-//}
-
 @Api(tags = {"1. User"})
 @RequiredArgsConstructor
 @RestController
@@ -57,3 +34,25 @@ public class UserController {
         return userJpaRepo.save(user);
     }
 }
+
+//@RequiredArgsConstructor  // 생성자 주입
+//@RestController
+//@RequestMapping(value = "/v1")
+//public class UserController {
+//
+//    private final UserJpaRepo userJpaRepo;
+//
+//    @GetMapping("/user")
+//    public List<User> findAllUser(){
+//
+//        return userJpaRepo.findAll();
+//    }
+//    @PostMapping("/user")
+//    public User save(){
+//        User user = User.builder()
+//                .uid("test@naverr.com")
+//                .name("jun")
+//                .build();
+//        return userJpaRepo.save(user);
+//    }
+//}
