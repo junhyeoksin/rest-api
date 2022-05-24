@@ -1,0 +1,23 @@
+{
+  "properties": [
+    {
+      "name": "spring.jwt.secret",
+      "type": "java.lang.String",
+      "description": "Description for spring.jwt.secret."
+    },
+    {
+      "name": "spring.jwt.secret",
+      "type": "java.lang.String",
+      "description": "Description for spring.jwt.secret."
+    },
+    {
+      "name": "spring.profiles.messages.basename",
+      "type": "java.lang.String",
+      "description": "Description for spring.profiles.messages.basename."
+    },
+    {
+      "name": "spring.jwt.secret",
+      "type": "java.lang.String",
+      "description": "Description for spring.jwt.secret."
+    }
+  ] }
