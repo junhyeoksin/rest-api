@@ -1,4 +1,4 @@
-package com.junprogrammer.restapi.service;
+package com.junprogrammer.restapi.service.security;
 
 import com.junprogrammer.restapi.advice.exception.CUserNotFoundException;
 import com.junprogrammer.restapi.repositroy.UserJpaRepo;

@@ -1,4 +1,4 @@
-package com.junprogrammer.restapi.controller.exception;
+package com.junprogrammer.restapi.advice.exception;
 
 
 public class CAuthenticationEntryPointException extends RuntimeException {

@@ -30,6 +30,9 @@ dependencies {
     runtimeOnly 'mysql:mysql-connector-java'
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    //kakao
+    implementation 'com.google.code.gson:gson'
+
     //security
     implementation 'org.springframework.boot:spring-boot-starter-security'
     implementation 'io.jsonwebtoken:jjwt:0.9.1'
@@ -38,5 +41,7 @@ dependencies {
     // test
     testImplementation 'org.springframework.security:spring-security-test'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+//    annotationProcessor "org.springframework.boot:spring-boot-configuration-processor"
 }
 

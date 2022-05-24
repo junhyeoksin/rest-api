@@ -1,5 +1,6 @@
 package com.junprogrammer.restapi.controller.exception;
 
+import com.junprogrammer.restapi.advice.exception.CAuthenticationEntryPointException;
 import com.junprogrammer.restapi.model.response.CommonResult;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;

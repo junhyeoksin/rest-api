@@ -1,4 +1,4 @@
-package com.junprogrammer.restapi.advice;
+package com.junprogrammer.restapi.advice.exception;
 
 public class CEmailSigninFailedException extends RuntimeException {
     public CEmailSigninFailedException(String msg, Throwable t) {
