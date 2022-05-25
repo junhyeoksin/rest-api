@@ -12,7 +12,6 @@ public class SpringRestApiApplication {
     public static void main(String[] args) {
         SpringApplication.run(SpringRestApiApplication.class, args);
     }
-
     @Bean
     public PasswordEncoder passwordEncoder() {
         return PasswordEncoderFactories.createDelegatingPasswordEncoder();
